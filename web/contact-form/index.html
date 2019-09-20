@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <form class="form-contact" method="post" action="/services/mail-message/">
+
+        <div>
+            <h1>Contact Form</h1>
+            <div>
+                <label>First Name</label>
+                <input name="firstName">
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input name="lastName">
+            </div>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <div class="form-label-group">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>File Explorer</title>
+</head>
+
+<body>
+
+    <form method="post" action="/services/file-manager/write-string.asp">
+
+        <div>
+            <h1>File Write</h1>
+            <div>
+                <label>File</label>
+                <input name="fileName" type="text" placeholder="sample.txt" />
+            </div>
+            <div>
+                <label>File Content</label>
+                <textarea name="fileContent" placeholder="This file content area"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </form>
+
+    <hr />
+
+    <form method="post" action="/services/file-manager/">
+
+        <div>
+            <h1>File Browse</h1>
+            <div>
+                <input type="submit" value="Browse">
+            </div>
+        </div>
+    </form>
+    
+    <hr />
+
+    <form method="post" action="/services/file-manager/file-upload.asp" enctype='multipart/form-data'>
+
+        <div>
+            <h1>File Upload</h1>
+            <div>
+                <label>File</label>
+                <input name="file" type="file" placeholder="Select File" />
+            </div>
+            <div>
+                <input type="submit" value="Upload">
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

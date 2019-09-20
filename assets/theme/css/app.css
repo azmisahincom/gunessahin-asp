@@ -1,0 +1,56 @@
+﻿html {
+    min-height: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 90%;
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    box-sizing: border-box;
+}
+
+.col-md-6 {
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+.right {
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+}
+
+.h1 {
+    font-size: 50px;
+}
+
+#Top {
+    background: blue;
+}
+
+#Main {
+    background: gray;
+}
+
+#Footer {
+    background: orange;
+}
